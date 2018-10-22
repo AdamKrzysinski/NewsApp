@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <!-- change the search keywords -->
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_default"
+        android:key="@string/settings_search_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_label" />
+
+    <!-- change the quantity news on the page -->
+    <ListPreference
+        android:defaultValue="@string/settings_size_default"
+        android:entries="@array/settings_page_size"
+        android:entryValues="@array/settings_page_size"
+        android:key="@string/settings_size_key"
+        android:title="@string/settings_size_label" />
+
+    <!-- change the order news list -->
+    <ListPreference
+        android:defaultValue="@string/settings_order_label"
+        android:entries="@array/settings_order"
+        android:entryValues="@array/settings_order"
+        android:key="@string/settings_order_key"
+        android:title="@string/settings_order_label" />
+</PreferenceScreen>

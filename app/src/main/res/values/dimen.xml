@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- padding -->
+    <dimen name="textPaddingNextNews">16dp</dimen>
+    <dimen name="textPaddingBottom">6dp</dimen>
+    <dimen name="textPaddingHorizontal">16dp</dimen>
+    <!-- text size -->
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeNormal">16sp</dimen>
+    <dimen name="textSizeMedium">24sp</dimen>
+</resources>
